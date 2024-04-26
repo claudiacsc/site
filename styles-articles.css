@@ -42,9 +42,15 @@ h1, h2 {
 }
 
 img {
+    height: 110px;
+    max-width: 25%; 
     float: left;
-    margin-right: 0px;
-    max-width: 30px;
+    margin-right: 20px;">
+
+}
+.container {
+    display: flex;
+  align-items: center;
 }
 
 p {
