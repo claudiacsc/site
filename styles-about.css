@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,10 +8,26 @@ body {
 header {
     background-color: #26aba7;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
+
+header{
+    padding: 10px;  
+    font-weight: 400;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
 }
 
+}
+nav{
+    display: flex;
+    border-radius:  50% ;
+    padding: 10px;
+    align-items: center;
+    font-weight: 500;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -19,18 +36,19 @@ nav ul {
     justify-content: center; /* Centraliza os itens horizontalmente */
 }
 
-nav ul li {
-    margin-right: 15px;
+nav ul li }
+li{
+    list-style-type: none;
+    display: inline-block;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    padding: 5px 5px;
-    border-radius: 5px;
+    padding: 10px 10px;
+    border-radius: 10px;
     background-color: 0;
 }
-
 nav a:hover {
     color: #6e214e;
 }
@@ -52,11 +70,9 @@ p {
 }
 
 footer {
-    background-color: #7bf5cc;
-    color: #e70489;
-    text-align: center; 
-    padding: 10px 0;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    text-align: center;
     width: 100%;
 }
+
