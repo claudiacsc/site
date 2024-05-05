@@ -1,78 +1,84 @@
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
+*/
 header {
-    background-color: #26aba7;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-
-header{
-    padding: 10px;  
-    font-weight: 400;
-}
-.menu{
     display: flex;
-    justify-content: space-around;
-}
-
-}
-nav{
-    display: flex;
-    border-radius:  50% ;
-    padding: 10px;
+    justify-content: flex-end; /* Alinha o menu à direita */
     align-items: center;
-    font-weight: 500;
+    background-color: #26aba7;
+    padding: 10px 20px;
 }
-nav ul {
+}
+
+.menu {
+    display: flex;
     list-style-type: none;
+}
+
+nav ul {
+    display: flex;
     margin: 0;
     padding: 0;
-    display: flex; /* Utiliza o flexbox para organizar os itens lado a lado */
-    justify-content: center; /* Centraliza os itens horizontalmente */
 }
 
-nav ul li }
-li{
-    list-style-type: none;
-    display: inline-block;
+nav ul li {
+    margin-left: 10px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    padding: 10px 10px;
+    padding: 10px;
     border-radius: 10px;
-    background-color: 0;
+    background-color: #26aba7;
+    font-size: 18px; /* Tamanho da fonte dos itens do menu */
 }
+
 nav a:hover {
-    color: #6e214e;
+    background-color: #6e214e;
 }
 
-h1, h2 {
+/* Alinhamento da logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+.logo span {
+    color: #26aba7;
+    font-weight: bold;
+    font-size: 24px; /* Tamanho da fonte do texto ao lado da logo */
+
+/* Estilos para a seção de conteúdo */
+.content {
     margin-top: 20px;
-    padding: 20px;
-    background-color: #fff;
 }
 
-img {
-    float: left;
-    margin-right: 0px;
-    max-width: 30px;
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-p {
-    margin-bottom: 50px;
+.container img {
+    max-width: 100px;
+    margin-right: 20px;
 }
 
+.container p {
+    flex: 1; /* Ocupa o espaço restante ao lado da imagem */
+}
+
+/* Estilos para o rodapé */
 footer {
     position: fixed;
     bottom: 0;
     text-align: center;
     width: 100%;
+    background-color: #26aba7;
+    color: #fff;
+    padding: 10px 0;
 }
-
