@@ -1,16 +1,17 @@
-*/
+/* Alinhamento do menu no canto superior direito */
 header {
     display: flex;
-    justify-content: flex-end; /* Alinha o menu à direita */
+    justify-content: space-between;
+    list-style-type: none;
     align-items: center;
-    background-color: #26aba7;
-    padding: 10px 20px;
+    background-color: #fff;
+    color: #fff;
+    padding: 20px;
 }
-}
-
 .menu {
     display: flex;
     list-style-type: none;
+    
 }
 
 nav ul {
@@ -21,6 +22,7 @@ nav ul {
 
 nav ul li {
     margin-left: 10px;
+    list-style-type: none;
 }
 
 nav ul li a {
