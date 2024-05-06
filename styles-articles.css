@@ -89,12 +89,9 @@ p {
 }
 
 /* Estilos para o rodapé */
-footer {
+footer{
     position: fixed;
     bottom: 0;
-    text-align: center;
+    text-align: center; 
     width: 100%;
-    background-color: #26aba7;
-    color: #fff;
-    padding: 5px 0;
 }
