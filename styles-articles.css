@@ -1,4 +1,10 @@
-/* Alinhamento do menu no canto superior direito */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -13,7 +19,6 @@ header {
     list-style-type: none;
     
 }
-
 nav ul {
     display: flex;
     margin: 0;
@@ -26,16 +31,17 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
-    background-color: #26aba7;
+    color: #26aba7;
     font-size: 18px; /* Tamanho da fonte dos itens do menu */
 }
 
 nav a:hover {
-    background-color: #6e214e;
+    color: #6e214e;
+    font-weight: bolder;
 }
 
 /* Alinhamento da logo */

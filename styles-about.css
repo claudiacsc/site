@@ -7,14 +7,18 @@ body {
 
 header {
     display: flex;
-    justify-content:flex-end;
+    justify-content: space-between;
     list-style-type: none;
     align-items: center;
     background-color: #fff;
     color: #fff;
     padding: 20px;
-
-
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    
+}
 nav ul {
     display: flex;
     margin: 0;
@@ -23,16 +27,15 @@ nav ul {
 
 nav ul li {
     margin-left: 10px;
-    list-style-type: none;
-    
+    list-style-type: none;  
 }
 
 nav ul li a {
-   
+
     text-decoration: none;
-    color: #26ABA7;
     padding: 10px;
     border-radius: 10px;
+    color: #26aba7;
     font-size: 18px; /* Tamanho da fonte dos itens do menu */
 }
 
@@ -58,40 +61,8 @@ nav a:hover {
     color: #26aba7;
     font-weight: bold;
     font-size: 24px; /* Tamanho da fonte do texto ao lado da logo */
-}
 
-.menu{
-    display: flex;
-    justify-content: space-around;
-}
-
-}
-nav{
-    display: flex;
-    border-radius:  50% ;
-    padding: 10px;
-    align-items: center;
-    font-weight: 500;
-}
-nav ul {
-    display: flex; /* Utiliza o flexbox para organizar os itens lado a lado */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-}
-
-nav ul li 
-li{
-    list-style-type: none;
-    display: inline-block;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 10px;
-    border-radius: 10px;
-    background-color: 0;
-
-
+/* Estilos adicionais para os artigos */
 h1, h2 {
     margin-top: 20px;
     padding: 20px;
