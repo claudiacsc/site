@@ -24,19 +24,21 @@ nav ul {
 nav ul li {
     margin-left: 10px;
     list-style-type: none;
+    
 }
 
 nav ul li a {
-    color: #fff;
+   
     text-decoration: none;
+    color: #26ABA7;
     padding: 10px;
     border-radius: 10px;
-    background-color: #26aba7;
     font-size: 18px; /* Tamanho da fonte dos itens do menu */
 }
 
 nav a:hover {
-    background-color: #6e214e;
+    color: #6e214e;
+    font-weight: bolder;
 }
 
 /* Alinhamento da logo */
@@ -76,7 +78,7 @@ nav ul {
     justify-content: center; /* Centraliza os itens horizontalmente */
 }
 
-nav ul li }
+nav ul li 
 li{
     list-style-type: none;
     display: inline-block;
@@ -88,10 +90,7 @@ nav ul li a {
     padding: 10px 10px;
     border-radius: 10px;
     background-color: 0;
-}
-nav a:hover {
-    color: #6e214e;
-}
+
 
 h1, h2 {
     margin-top: 20px;
@@ -111,9 +110,8 @@ p {
 
 /* Estilos para o rodapé */
 footer{
-    position: fixed;
+    position:absolute;
     bottom: 0;
-    text-align: center;
-    padding: 5px 0;
+    text-align: center; 
     width: 100%;
 }
