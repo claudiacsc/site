@@ -62,10 +62,11 @@ nav a:hover {
 }
 
 /* Estilos adicionais para os artigos */
-h1, h2 {
+h1, h2{
     margin-top: 20px;
     padding: 20px;
     background-color: #fff;
+    display: flex;  
 }
 
 img {
@@ -96,7 +97,7 @@ p {
 
 /* Estilos para o rodapé */
 footer{
-    position:absolute;
+    position:fixed;
     bottom: 0;
     text-align: center; 
     width: 100%;
