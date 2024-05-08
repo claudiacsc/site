@@ -1,8 +1,9 @@
 
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial;
+   
 }
 
 header {
@@ -27,7 +28,7 @@ nav ul {
 
 nav ul li {
     margin-left: 10px;
-    list-style-type: none;
+    list-style-type: none;  
 }
 
 nav ul li a {
@@ -47,7 +48,9 @@ nav a:hover {
 /* Alinhamento da logo */
 .logo {
     display: flex;
+
     align-items: center;
+    
 }
 
 .logo img {
@@ -59,7 +62,6 @@ nav a:hover {
     color: #26aba7;
     font-weight: bold;
     font-size: 24px; /* Tamanho da fonte do texto ao lado da logo */
-}
 
 /* Estilos adicionais para os artigos */
 h1, h2 {
@@ -71,27 +73,11 @@ h1, h2 {
 img {
     float: left;
     margin-right: 0px;
-    max-width: 200px;
+    max-width: 30px;
 }
 
 p {
     margin-bottom: 50px;
-}
-
-.content {
-    margin-top: 20px;
-}
-
-.container {
-    margin-bottom: 20px;
-}
-
-.container img {
-    margin-right: 20px;
-}
-
-.container p {
-    margin-bottom: 0;
 }
 
 /* Estilos para o rodapé */
@@ -100,4 +86,5 @@ footer{
     bottom: 0;
     text-align: center; 
     width: 100%;
+}
 }
